@@ -10,16 +10,17 @@ body{
 .flex-container{
     display:flex;
     justify-content: space-between; 
+   flex-wrap: wrap;
 }
 
 #container{
     font-family:"Open Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
     font-size: 16px;
     color: #52527a;
-    width: 780px;
-    height: 600px;
-    padding: 20px;
+    background: #fff;
+    max-width: 800px;
+    border-top-left-radius: 40px; 
+    border-top-right-radius: 40px;
     margin-left:auto;
     margin-right: auto;
 }
@@ -35,8 +36,8 @@ header {
 
 article.left{
    
-    width: 30%;
-    height:600px;
+    /*width: 30%;*/
+   
     background: #fff;
     padding: 20px;
    /* border-right: 1px solid #000;*/
@@ -44,8 +45,9 @@ article.left{
 
 article.right{
     
-    width: 70%;
-    height: 600px;
+    min-width: 400px;
+   
+    
     background: #fff;
     padding: 20px;
 }

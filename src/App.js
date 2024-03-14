@@ -22,10 +22,7 @@ function App() {
             <h1>{info.firstName} {info.lastName}</h1>
         </header>
         <div className="flex-container">  
-            <article className="left">
-
-           
-                
+            <article className="left">    
                 <section>
                     <h3>INTRESSEN</h3>
                     <ul>
@@ -86,10 +83,25 @@ function App() {
                             Webbprogrammering    
                         </li>  
                     </ul>
+                    <h3>Övrigt</h3>
+                    <ul>
+                        <li>
+                            <div className="flex-container">
+                                <div>Postanställd.</div>
+                                <div>2002-2005</div>       
+                            </div> 
+                          
+                        </li>
+                        <li>
+                            <div className="flex-container">
+                                <div>Trädgårdsarbetare.</div>
+                                <div>2016-2023</div>
+                            </div>
+                        </li>
+                    </ul>
                 </section>      
             </article>
-        </div>
-       
+        </div> 
     </div>
     </>
   );
