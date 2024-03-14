@@ -1,6 +1,5 @@
 
 import './App.css';
-import style from './cv.css';
 import './cv.css';
 import image1 from './images/200x200.jpg';
 
