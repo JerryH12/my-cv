@@ -59,7 +59,7 @@ function App() {
                             <div>Webbkollektivet</div>
                             <div>2010-2012</div>
                         </div>
-                        Bygga hemsidor. PHP, MySQL och Linux.
+                        Bygga hemsidor.<br /> PHP, MySQL och Linux.
                     </li>
                     <li>
                         <h4>Programmerare</h4>

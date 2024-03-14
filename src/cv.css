@@ -44,10 +44,7 @@ article.left{
 }
 
 article.right{
-    
-    min-width: 400px;
-   
-    
+    min-width: 450px;
     background: #fff;
     padding: 20px;
 }
@@ -98,4 +95,10 @@ h3 {
 
 h4 {
     margin: 2px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    article.right {
+        min-width: 350px;
+    }
 }
